@@ -26,7 +26,7 @@ Config.JerryCan = {
     price = 300,				-- Price to purchase it
     requiredStock = 10,			-- Amount of stock required in gas station to provide a jerry can
     item = "weapon_petrolcan",	-- Jerry can inventory item
-    giveAsWeapon = true,		-- true: Give jerry can as weapon | false: Give jerry can as item
+    giveAsWeapon = false,		-- true: Give jerry can as weapon | false: Give jerry can as item
     metadata = { ammo = 100 }	-- Item metadata (ATTENTION: Some inventories don't allow ammo to be sent via metadata. This means that changing the ammo here won't have any effect. Please check your inventory documentation)
 }
 
@@ -38,8 +38,8 @@ Config.Accounts = {
 
 -- Players inside these jobs will receive the specified discounts
 Config.JobDiscounts = {
-    ["police"] = 90, 			-- The job name (NOT THE LABEL), and the discount amount in % this job will receive
-    ["ambulance"] = 80,
+    ["police"] = 30, 			-- The job name (NOT THE LABEL), and the discount amount in % this job will receive
+    ["ambulance"] = 50,
 }
 
 -- Config for not owned gas stations
