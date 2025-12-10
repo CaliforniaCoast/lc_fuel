@@ -506,5 +506,13 @@ Config.Electric = {
         "dilettante",
         "dilettante2",
         "khamelion",
+        "gbeon",
+        "gblod4",
+        "gbneonct",
+        "gbpolstarlight",
+        "gbstarlight",
+        "gbtaxieon",
+        "gbtaxistarlight",
+        "gbbriosof",
     }
 }
